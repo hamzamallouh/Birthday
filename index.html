@@ -27,23 +27,25 @@
 <header class="hero"><div style="font-size:65px">🎂</div><b>5 فبراير • عيد ميلاد بيان</b><h1>بيان</h1><h2>مدينة الألعاب ❤️</h2><p>ألعاب حقيقية، تحديات، نقاط، ونهاية رومانسية مهما كانت النتيجة.</p></header>
 <main class="hub">
 <div class="grid">
-<div class="card"><div class="icon">🎯</div><h3>اضرب الهدف</h3><p>20 ثانية</p><button class="btn" data-game="target">العب</button></div>
-<div class="card"><div class="icon">🧠</div><h3>الذاكرة</h3><p>8 أزواج</p><button class="btn" data-game="memory">العب</button></div>
-<div class="card"><div class="icon">❌⭕</div><h3>XO</h3><p>ضد الكمبيوتر</p><button class="btn" data-game="xo">العب</button></div>
-<div class="card"><div class="icon">⚡</div><h3>ردة الفعل</h3><p>اختبار السرعة</p><button class="btn" data-game="reaction">العب</button></div>
-<div class="card"><div class="icon">🔢</div><h3>ذاكرة الأرقام</h3><p>احفظ الرقم</p><button class="btn" data-game="numbers">العب</button></div>
-<div class="card"><div class="icon">🧠</div><h3>Simon</h3><p>5 جولات</p><button class="btn" data-game="simon">العب</button></div>
-<div class="card"><div class="icon">🔤</div><h3>خمن الكلمة</h3><p>6 محاولات</p><button class="btn" data-game="word">العب</button></div>
-<div class="card"><div class="icon">🏆</div><h3>Quiz</h3><p>7 أسئلة</p><button class="btn" data-game="quiz">العب</button></div>
+<div class="card"><div class="icon">🎯</div><h3>اضرب الهدف</h3><p>20 ثانية • كمبيوتر أو لاعب</p><button class="btn" data-game="target">العب</button></div>
+<div class="card"><div class="icon">🧠</div><h3>الذاكرة</h3><p>8 أزواج • كمبيوتر أو لاعب</p><button class="btn" data-game="memory">العب</button></div>
+<div class="card"><div class="icon">❌⭕</div><h3>XO</h3><p>كمبيوتر أو حمزة/بيان</p><button class="btn" data-game="xo">العب</button></div>
+<div class="card"><div class="icon">⚡</div><h3>ردة الفعل</h3><p>كمبيوتر أو سباق شخصين</p><button class="btn" data-game="reaction">العب</button></div>
+<div class="card"><div class="icon">🔢</div><h3>ذاكرة الأرقام</h3><p>كمبيوتر أو تحدي شخصين</p><button class="btn" data-game="numbers">العب</button></div>
+<div class="card"><div class="icon">🧠</div><h3>Simon</h3><p>كمبيوتر أو منافسة</p><button class="btn" data-game="simon">العب</button></div>
+<div class="card"><div class="icon">🔤</div><h3>خمن الكلمة</h3><p>كمبيوتر أو سباق تخمين</p><button class="btn" data-game="word">العب</button></div>
+<div class="card"><div class="icon">🏆</div><h3>Quiz</h3><p>7 أسئلة • العبوا ضد بعض</p><button class="btn" data-game="quiz">العب</button></div>
 <div class="card"><div class="icon">🎡</div><h3>عجلة التحدي</h3><p>لف واكتشف</p><button class="btn" data-game="wheel">لف</button></div>
 <div class="card"><div class="icon">🎁</div><h3>صناديق المفاجأة</h3><p>اختر واحدًا</p><button class="btn" data-game="boxes">افتح</button></div>
-<div class="card"><div class="icon">🪙</div><h3>عملة الحظ</h3><p>5 جولات</p><button class="btn" data-game="coin">ابدأ</button></div>
+<div class="card"><div class="icon">🪙</div><h3>تحدي القرارات</h3><p>5 جولات بدون رهانات</p><button class="btn" data-game="coin">ابدأ</button></div>
 <div class="card"><div class="icon">🎴</div><h3>أعلى أم أقل؟</h3><p>5 جولات</p><button class="btn" data-game="higher">العب</button></div>
 </div>
 <section id="stage" class="stage hide"></section>
 </main>
 <div class="footer">صُنع بحب من حمزة إلى بيان ❤️</div>
 </div>
-<script src="app.js?v=11"></script>
+<script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script>
+<script src="app.js?v=12"></script>
+<script src="multiplayer.js?v=1"></script>
 </body>
 </html>
